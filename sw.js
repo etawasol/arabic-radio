@@ -1,5 +1,5 @@
 // يخزّن واجهة التطبيق ليفتح فوراً حتى مع ضعف الشبكة. البث نفسه لا يُخزَّن.
-const VERSION = 'ar-radio-v1';
+const VERSION = 'ar-radio-v2';
 const SHELL = ['./', 'index.html', 'app.css', 'app.js', 'stations.json', 'vendor/hls.min.js',
   'manifest.webmanifest', 'icons/icon-64.png', 'icons/icon-192.png', 'icons/icon-512.png'];
 self.addEventListener('install', e => {
